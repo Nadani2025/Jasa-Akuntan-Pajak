@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PT. Nadani Bagja Solution | Jasa Akuntan dan Pajak</title>
+  <meta name="description" content="PT. Nadani Bagja Solution adalah penyedia jasa akuntan dan pajak profesional untuk UMKM dan perusahaan. Rapi, patuh, dan tepat waktu." />
+  <style>
+    :root{
+      --primary:#2563eb;
+      --secondary:#dc2626;
+      --dark:#0f172a;
+      --muted:#334155;
+    }
+
+    body{
+      margin:0;
+      font-family:Arial, sans-serif;
+      background:#f8fafc;
+      color:var(--dark);
+    }
+
+    .container{
+      max-width:1100px;
+      margin:auto;
+      padding:24px;
+    }
+
+    .hero{
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:32px;
+      align-items:center;
+      padding:64px 0;
+    }
+
+    .badge{
+      background:rgba(220,38,38,.1);
+      color:var(--secondary);
+      padding:6px 14px;
+      border-radius:999px;
+      font-size:14px;
+      font-weight:bold;
+      display:inline-block;
+    }
+
+    h1{
+      font-size:42px;
+      line-height:1.2;
+      margin:16px 0;
+    }
+
+    h2{
+      font-size:32px;
+      margin:0 0 12px;
+    }
+
+    h3{
+      margin:0 0 8px;
+    }
+
+    p{
+      font-size:18px;
+      line-height:1.6;
+      color:var(--muted);
+    }
+
+    .btn{
+      background:linear-gradient(90deg,var(--primary),var(--secondary));
+      color:#fff;
+      padding:14px 24px;
+      border-radius:10px;
+      text-decoration:none;
+      font-weight:bold;
+      display:inline-block;
+    }
+
+    .card{
+      background:#fff;
+      border-radius:16px;
+      padding:24px;
+      box-shadow:0 10px 20px rgba(0,0,0,.05);
+    }
+
+    .grid{
+      display:grid;
+      gap:24px;
+    }
+
+    .grid-3{
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    }
+
+    .section{
+      padding:64px 0;
+    }
+
+    .highlight{
+      color:var(--secondary);
+    }
+
+    footer{
+      background:linear-gradient(90deg,var(--primary),var(--secondary));
+      color:#fff;
+      padding:32px 0;
+      text-align:center;
+    }
+
+    .list li{
+      margin:8px 0;
+    }
+
+    .trust{
+      display:flex;
+      gap:16px;
+      flex-wrap:wrap;
+      margin-top:16px;
+    }
+
+    .pill{
+      background:#f1f5f9;
+      padding:8px 12px;
+      border-radius:999px;
+      font-size:14px;
+      border:1px solid rgba(37,99,235,.2);
+    }
+
+    /* MOBILE */
+    @media(max-width:768px){
+      .container{ padding:16px; }
+      .hero{
+        grid-template-columns:1fr;
+        padding:32px 0;
+      }
+      h1{ font-size:28px; }
+      h2{ font-size:24px; }
+      p{ font-size:16px; }
+      .card{ padding:16px; }
+      .btn{
+        width:100%;
+        text-align:center;
+        padding:16px;
+      }
+      .trust{ gap:8px; }
+      .pill{ font-size:12px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <div class="container hero">
+    <div>
+      <span class="badge">Jasa Akuntan dan Pajak</span>
+      <h1>Pembukuan Rapi & <span class="highlight">Pajak Aman</span><br/>untuk Bisnis Anda</h1>
+      <p>
+        Banyak bisnis rugi bukan karena penjualan kecil, tapi karena laporan keuangan berantakan dan pajak tidak terkelola.
+        <b>PT. Nadani Bagja Solution</b> membantu Anda fokus ke bisnis—urusan angka & pajak kami yang tangani.
+      </p>
+      <a href="#kontak" class="btn">Konsultasi Gratis</a>
+
+      <div class="trust">
+        <span class="pill">✔ Laporan Tepat Waktu</span>
+        <span class="pill">✔ Patuh Aturan Pajak</span>
+        <span class="pill">✔ UMKM & Perusahaan</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Masalah yang sering terjadi:</h3>
+      <ul class="list">
+        <li>❌ Pembukuan tidak rapi & tidak update</li>
+        <li>❌ Tidak tahu untung / rugi sebenarnya</li>
+        <li>❌ Takut pemeriksaan pajak</li>
+        <li>❌ Telat lapor SPT & kena denda</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SOLUSI -->
+  <div class="section container">
+    <h2>Solusi dari Kami</h2>
+    <p>Kami menyediakan layanan akuntansi dan perpajakan yang <b>sederhana, transparan, dan patuh aturan</b>.</p>
+
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>Pembukuan Akuntansi</h3>
+        <p>Pencatatan transaksi harian, laporan laba rugi, neraca, dan arus kas sesuai standar.</p>
+      </div>
+      <div class="card">
+        <h3>Pelaporan Pajak</h3>
+        <p>PPN, PPh, dan SPT Tahunan badan maupun pribadi. Tepat waktu & minim risiko.</p>
+      </div>
+      <div class="card">
+        <h3>Konsultasi Keuangan</h3>
+        <p>Pendampingan memahami kondisi bisnis dan keputusan berbasis data.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div id="kontak" class="section container">
+    <div class="card">
+      <h2>Siap Merapikan Keuangan Bisnis Anda?</h2>
+      <p>Konsultasi awal <b>GRATIS</b>. Tidak ada komitmen.</p>
+      <a href="https://wa.me/6281378509994" class="btn">Hubungi via WhatsApp</a>
+      <p style="margin-top:12px;font-size:14px;">Principal: <b>Saep Ramdani, SE</b></p>
+    </div>
+  </div>
+
+  <!-- ALAMAT -->
+  <div class="section container">
+    <div class="card">
+      <h2>Alamat Kantor</h2>
+      <p>
+        📍 <b>PT. Nadani Bagja Solution</b><br/>
+        Jl. Moch Noh Noor,<br/>
+        Puraseda, Leuwiliang,<br/>
+        Bogor, Jawa Barat 16640
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 PT. Nadani Bagja Solution — Jasa Akuntan dan Pajak</p>
+  </footer>
+
+</body>
+</html>
